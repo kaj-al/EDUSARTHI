@@ -1,5 +1,5 @@
 from langchain_core.prompts import ChatPromptTemplate
-from config import llm
+from config import llm 
 
 
 

@@ -8,3 +8,5 @@ langchain-core
 faiss-cpu
 pypdf
 tiktoken
+langchain-openai
+
