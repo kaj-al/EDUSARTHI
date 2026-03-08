@@ -10,7 +10,7 @@ class convo:
     def add_ai(self,message:str):
         self.history.append(AIMessage(content=message))
 
-    def history(self):
+    def get_history(self):
         return self.history
     
     def clear(self):
