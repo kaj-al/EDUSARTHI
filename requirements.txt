@@ -9,4 +9,4 @@ faiss-cpu
 pypdf
 tiktoken
 langchain-openai
-
+langchain-groq
