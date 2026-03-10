@@ -7,6 +7,56 @@ st.set_page_config(
     page_icon="🎓"
 )
 
+st.markdown("""
+<style>
+    /*Main app background*/
+    .stApp {
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    }
+    /*Title*/
+    h1{
+        text-align:center;
+        color:2c3e50;
+        font-family:'Segoe UI',sans-serif;
+    }
+    /*Chat*/
+    [data-testid="stChatMessage"]{
+        border-radius:15px:
+        padding:10px;
+        margin-bottom:10px;
+    }
+    /*User msg*/
+    [data-testid="stChatMessage"][data-testid="user"]{
+        background-color:#d1e7ff
+    }
+    /*ai msg*/
+    [data-testid="stChatMessage"][data-testid="assistant"]{
+        background-color:#e8f5f9
+    }
+    /*sidebar*/
+    section[data-testid="stSidebar"]*{
+        color:white;
+    }
+    /*buttons*/
+    .stButton>button{
+        background-color:#4CAF50;
+        color:white;
+        border-radius:10px:
+        padding:10px 20px;
+        border:none      
+    }
+    /*buttons hover*/
+    .stbutton>button:hover{
+        background-color:#45a049;   
+    }
+    /*chat box*/
+    [data-testid="stChatInput"]textarea{
+        border-radius:12px:
+        border:2px solid #4CAF50;
+    }
+    <style>
+""",unsafe_allow_html=True)
+
 st.title("EduSarthi - Your AI Learning Coach")
 st.write("Learn → Practice → Improve")
 
@@ -58,3 +108,5 @@ if user_input:
     st.session_state.messages.append(
         {"role": "assistant", "content": reply}
     )
+
+    
