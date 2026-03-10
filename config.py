@@ -4,4 +4,4 @@ from langchain_openai import ChatOpenAI
 
 load_dotenv()
 
-llm = ChatOpenAI(model="openai/gpt-4o-mini",api_key=os.getenv("OPENROUTER_API_KEY"),base_url=os.getenv("OPENROUTER_API_URL"),temperature=0.5)
+llm = ChatOpenAI(model="openai/gpt-4o-mini",api_key=os.getenv("OPENROUTER_API_KEY"),base_url=os.getenv("OPENROUTER_BASE_URL"),temperature=0.5)
