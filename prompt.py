@@ -15,7 +15,7 @@ Process:
 5. If correct then appreciate and give slightly harder question.
 6. If wrong then explain again simply.
 
-Always respond in the selected language.
+Always respond in the selected language or the language mentioned in input by the user.
 """
     ),
     MessagesPlaceholder("chat_history"),
