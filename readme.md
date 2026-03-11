@@ -64,10 +64,10 @@ Response + Quiz + Feedback
 ## Installation
 ### 1️. Clone the repository
 ```bash
-git clone https://github.com/kaj-al7/EDUSARTHI.git
+git clone https://github.com/kaj-al/EDUSARTHI.git
 ```
 ### 2️. Create virtual environment
-```python 
+```bash
 Windows:
 venv\Scripts\activate
 Mac/Linux:
