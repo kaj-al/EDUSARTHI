@@ -25,25 +25,6 @@ This creates a continuous learning loop that improves understanding.
 - Multi-Language Support
 - Interactive Chat Interface.
 
-## System Architecture
-
-User
-   │
-   ▼
-Streamlit UI
-   │
-   ▼
-LangChain Prompt System
-   │
-   ▼
-LLM (Llama via OpenRouter)
-   │
-   ▼
-AI Learning Coach Logic
-   │
-   ▼
-Response + Quiz + Feedback
-
 ## Technologies 
 - Python - Core programming language
 - Streamlit - Interactive web interface
@@ -102,10 +83,4 @@ A) Data se learn karna
 B) Video edit karna
 C) Image crop karna
 
-## Future Enhancements
-- PDF study material upload
-- Knowledge gap detection
-- Learning progress dashboard
-- Retrieval-Augmented Generation (RAG)
-- Personalized learning paths
-- Automatic note generation
+
