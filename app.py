@@ -55,7 +55,7 @@ st.markdown("""
     <style>
 """,unsafe_allow_html=True)
 
-st.title("EduSarthi - Your AI Learning Coach")
+st.title("EduSarthi")
 st.write("Learn → Practice → Improve")
 
 # memory
