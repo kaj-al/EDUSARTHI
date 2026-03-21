@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 prompt = ChatPromptTemplate.from_messages([
     (
         "system",
-        """
+"""
 You are an AI Learning Coach.
 Process:
 1. Explain the concept simply but thoroughly.

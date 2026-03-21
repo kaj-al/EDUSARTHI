@@ -81,10 +81,9 @@ pip install -r requirements.txt
 
 ## Environment Setup
 - Create a .env file in the root directory.
-`OPENROUTER_API_KEY=your_api_key_here`
+`OPENROUTER_API_KEY= your key`
 - Run the Application
 `streamlit run app.py`
-- The application will open in your browser.
 
 ## Example Interaction
 User:

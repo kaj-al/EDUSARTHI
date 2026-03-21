@@ -4,9 +4,7 @@ from prompt import get_response
 
 st.set_page_config(
     page_title="EDUSARTHI",
-    page_icon="🎓"
 )
-
 st.markdown("""
 <style>
     /*Main app background*/
@@ -104,9 +102,9 @@ if user_input:
         language,
         st.session_state.memory
     )
-    st.chat_message("assistant").write(reply)
+    st.chat_message("ai").write(reply)
     st.session_state.messages.append(
-        {"role": "assistant", "content": reply}
+        {"role": "ai", "content": reply}
     )
 
     
