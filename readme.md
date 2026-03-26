@@ -6,6 +6,7 @@
 - Passive learning
 - Poor concept retention
 - Lack of personalized feedback
+
 AI Learning Coach solves this by introducing adaptive learning interactions where the AI actively guides the student through learning and practice.
 
 ## Solution
@@ -15,6 +16,7 @@ Instead of only answering questions, the system:
 - Generates quiz questions
 - Evaluates student responses
 - Adjusts explanation based on performance
+
 This creates a continuous learning loop that improves understanding.
 
 ## Key Features
