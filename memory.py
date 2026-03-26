@@ -4,10 +4,10 @@ class convo:
     def __init__(self):
         self.history = []
     
-    def add_user(self,message:str):
+    def add_user(self,message):
         self.history.append(HumanMessage(content=message))
     
-    def add_ai(self,message:str):
+    def add_ai(self,message):
         self.history.append(AIMessage(content=message))
 
     def get_history(self):
