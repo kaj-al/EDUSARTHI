@@ -70,19 +70,20 @@ pip install -r requirements.txt
 
 ## Example Interaction
 User:
-Topic: Machine Learning
-Language: Hinglish
+
+    Topic: Machine Learning
+
+    Language: Hinglish
+
 AI Response:
-Machine learning ek technique hai jisme computer data se seekhta hai.
 
-Example:
-Netflix recommendation system.
+    Machine learning ek technique hai jisme computer data se seekhta hai.
 
-Quiz:
-Machine learning ka main goal kya hai?
+    Quiz:
+    Machine learning ka main goal kya hai?
 
-A) Data se learn karna
-B) Video edit karna
-C) Image crop karna
+    A) Data se learn karna
+    B) Video edit karna
+    C) Image crop karna
 
 
